@@ -3,13 +3,18 @@
         <remote name="rem"
                 fetch="https://github.com" />
         
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="hardware/xiaomi" name="Marble-Dev/android_hardware_xiaomi" remote="rem" revision="lineage-22.2" clone-depth="1" />
 
-        <project path="device/xiaomi/marble" name="LineageOS/android_device_xiaomi_marble" remote="rem" revision="lineage-22.2" clone-depth="1" />
-        <project path="device/xiaomi/sm8450-common" name="LineageOS/android_device_xiaomi_sm8450-common" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="device/xiaomi/marble" name="Marble-Dev/android_device_xiaomi_marble" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="device/xiaomi/sm8450-common" name="Marble-Dev/android_device_xiaomi_sm8450-common" remote="rem" revision="lineage-22.2" clone-depth="1" />
 
-        <project path="vendor/xiaomi/marble" name="TheMuppets/proprietary_vendor_xiaomi_marble" remote="rem" revision="lineage-22.2" clone-depth="1" />
-        <project path="vendor/xiaomi/sm8450-common" name="TheMuppets/proprietary_vendor_xiaomi_sm8450-common" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="vendor/xiaomi/marble" name="Marble-Dev/proprietary_vendor_xiaomi_marble" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="vendor/xiaomi/sm8450-common" name="Marble-Dev/android_vendor_xiaomi_sm8450-common" remote="rem" revision="lineage-22.2" clone-depth="1" />
 
-        <project path="kernel/xiaomi/sm8450" name="LineageOS/android_kernel_xiaomi_sm8450" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="kernel/xiaomi/sm8450" name="Marble-Dev/android_kernel_xiaomi_sm8450" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="kernel/xiaomi/sm8450-devicetrees" name="Marble-Dev/android_kernel_xiaomi_sm8450-devicetrees" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="kernel/xiaomi/sm8450-module" name="Marble-Dev/android_kernel_xiaomi_sm8450-modules" remote="rem" revision="lineage-22.2" clone-depth="1" />
+
+        <project path="hardware/dolby" name="Marble-Dev/android_hardware_dolby" remote="rem" revision="lineage-22.2" clone-depth="1" />
+        <project path="device/xiaomi/miuicamera-marble" name="Marble-Dev/android_device_xiaomi_miuicamera-marble" remote="rem" revision="lineage-22.2" clone-depth="1" />
 </manifest>
