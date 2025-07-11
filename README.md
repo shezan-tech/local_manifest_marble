@@ -3,7 +3,7 @@ Copyright (C) 2023-2024 The LineageOS Project
 # Clone Source
 
 ```bash
-git clone https://github.com/shezan-tech/local_manifest_marble.git --depth=1 .repo/local_manifests
+git clone -b fifeteen https://github.com/shezan-tech/local_manifest_marble.git --depth=1 .repo/local_manifests
 ```
 # Then to sync up:
 ```
